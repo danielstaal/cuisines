@@ -1,0 +1,37 @@
+{
+  "sources": [
+    {
+      "name": "Milos Jovanovik", 
+      "email": "milos.jovanovik@gmail.com"
+    }
+  ], 
+  "description": "An RDF dataset (4-star data) used in the cuisine - drug analysis done in the paper [\"Inferring Cuisine - Drug Interactions Using the Linked Data Approach\"](http://www.nature.com/srep/2015/150320/srep09346/full/srep09346.html). \r\n\r\nThe source data, in CSV, was taken from the paper [\"Flavor network and the principles of food pairing\"](http://www.nature.com/srep/2011/111215/srep00196/full/srep00196.html). It is a collection of recipes from [http://allrecipes.com](http://allrecipes.com), [http://epicurious.com](http://epicurious.com) and [http://menupan.com](http://menupan.com). Each recipe has an associated cuisine value (one of 11 world cuisines), and a flattened list of ingredients.\r\n\r\nThe data has been transformed into RDF using the [Food Ontology](http://data.lirmm.fr/ontologies/food#). More details can be found in the open access [paper on Scientific Reports](http://www.nature.com/srep/2015/150320/srep09346/full/srep09346.html).", 
+  "license": {
+    "url": "http://www.opendefinition.org/licenses/cc-by", 
+    "type": "cc-by", 
+    "title": "Creative Commons Attribution"
+  }, 
+  "title": "Recipe Dataset", 
+  "keywords": [
+    "RDF", 
+    "data", 
+    "food", 
+    "linked data", 
+    "open data", 
+    "recipe"
+  ], 
+  "author": {
+    "name": "Milos Jovanovik", 
+    "email": "milos.jovanovik@gmail.com"
+  }, 
+  "resources": [
+    {
+      "path": "https://ckannet-storage.commondatastorage.googleapis.com/2015-04-16T11:22:17.374Z/recipe-dataset.ttl", 
+      "title": "The Recipe Dataset", 
+      "description": "The Recipe Dataset in Turtle (.ttl) format.", 
+      "name": "the-recipe-dataset", 
+      "format": "text/turtle"
+    }
+  ], 
+  "name": "recipe-dataset"
+}
